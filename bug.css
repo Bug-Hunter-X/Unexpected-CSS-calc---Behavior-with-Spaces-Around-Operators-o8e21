@@ -1,0 +1,1 @@
+The CSS property `calc()` is used to perform calculations. However, it can produce unexpected results if there are spaces around the operators. For example, `width: calc(100% - 20px);` works as expected, but `width: calc( 100% - 20px );` may not be rendered properly by some browsers.
